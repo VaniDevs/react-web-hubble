@@ -4,7 +4,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "11"
+        "name": "Lindo Michoacan Inc"
       },
       "geometry": {
         "type": "Point",
@@ -17,7 +17,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "69"
+        "name": "Delicious Pizzeria & Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -30,7 +30,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "78"
+        "name": "Penguins"
       },
       "geometry": {
         "type": "Point",
@@ -43,7 +43,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "82"
+        "name": "The Abbott Tavern"
       },
       "geometry": {
         "type": "Point",
@@ -56,7 +56,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "97"
+        "name": "Blessed Homeland Supermarket"
       },
       "geometry": {
         "type": "Point",
@@ -69,7 +69,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "101"
+        "name": "Southwest Key Program"
       },
       "geometry": {
         "type": "Point",
@@ -82,7 +82,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "107"
+        "name": "El Rancho Paisa Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -95,7 +95,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "123"
+        "name": "Tops K-8"
       },
       "geometry": {
         "type": "Point",
@@ -108,7 +108,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "127"
+        "name": "Union Springs Academy Cafeteria"
       },
       "geometry": {
         "type": "Point",
@@ -121,7 +121,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "173"
+        "name": "Rio Tomatlan"
       },
       "geometry": {
         "type": "Point",
@@ -134,7 +134,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "179"
+        "name": "Bagelers Coffeehouse"
       },
       "geometry": {
         "type": "Point",
@@ -147,7 +147,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "222"
+        "name": "Sweet P Dessert Bar"
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +160,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "225"
+        "name": "Windy City Mini Mart"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +173,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "237"
+        "name": "Duseks"
       },
       "geometry": {
         "type": "Point",
@@ -186,7 +186,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "296"
+        "name": "Starr's Fast Food Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -199,7 +199,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "308"
+        "name": "European Chalet"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +212,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "352"
+        "name": "Cafe Grappa"
       },
       "geometry": {
         "type": "Point",
@@ -225,7 +225,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "355"
+        "name": "Social Bar Grill & Catering"
       },
       "geometry": {
         "type": "Point",
@@ -238,7 +238,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "358"
+        "name": "Niagara Univ.-main Cafeteria"
       },
       "geometry": {
         "type": "Point",
@@ -251,7 +251,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "369"
+        "name": "Giorno's Pizza Incorporated"
       },
       "geometry": {
         "type": "Point",
@@ -264,7 +264,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "376"
+        "name": "Raul's Nanuet Deli"
       },
       "geometry": {
         "type": "Point",
@@ -277,7 +277,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "400"
+        "name": "Steffanelli's Deli"
       },
       "geometry": {
         "type": "Point",
@@ -290,7 +290,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "409"
+        "name": "Zhang's Garden Chinese Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -303,7 +303,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "412"
+        "name": "Froyo"
       },
       "geometry": {
         "type": "Point",
@@ -316,7 +316,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "478"
+        "name": "Essence Of India"
       },
       "geometry": {
         "type": "Point",
@@ -329,7 +329,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "489"
+        "name": "Dunkin Donuts Oakwood Ave"
       },
       "geometry": {
         "type": "Point",
@@ -342,7 +342,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "501"
+        "name": "Pascale Bake House & Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -355,7 +355,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "502"
+        "name": "Gold Pot Jamaican Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -368,7 +368,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "512"
+        "name": "Jims Original J Town"
       },
       "geometry": {
         "type": "Point",
@@ -381,7 +381,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "514"
+        "name": "Hunkis Pizza"
       },
       "geometry": {
         "type": "Point",
@@ -394,7 +394,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "516"
+        "name": "Johnny Malone's"
       },
       "geometry": {
         "type": "Point",
@@ -407,7 +407,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "536"
+        "name": "Beauregard's Bakery & Cafe LLC"
       },
       "geometry": {
         "type": "Point",
@@ -420,7 +420,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "548"
+        "name": "Eastern Style Pizza Ii Lt"
       },
       "geometry": {
         "type": "Point",
@@ -433,7 +433,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "560"
+        "name": "Keeseville Snack Shop"
       },
       "geometry": {
         "type": "Point",
@@ -446,7 +446,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "562"
+        "name": "Dutchman's Landing"
       },
       "geometry": {
         "type": "Point",
@@ -459,7 +459,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "567"
+        "name": "Christina Marie's Cucina"
       },
       "geometry": {
         "type": "Point",
@@ -472,7 +472,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "576"
+        "name": "Cera's Restaurant & Lounge"
       },
       "geometry": {
         "type": "Point",
@@ -485,7 +485,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "580"
+        "name": "Anywheres Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -498,7 +498,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "585"
+        "name": "Papa Murphys Take N Bake Pizza"
       },
       "geometry": {
         "type": "Point",
@@ -511,7 +511,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "590"
+        "name": "The Carleton"
       },
       "geometry": {
         "type": "Point",
@@ -524,7 +524,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "591"
+        "name": "15 Flavors"
       },
       "geometry": {
         "type": "Point",
@@ -537,7 +537,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "616"
+        "name": "C J's Seafoods"
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +550,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "623"
+        "name": "Colorado Sports Bar"
       },
       "geometry": {
         "type": "Point",
@@ -563,7 +563,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "626"
+        "name": "Henneberg Tavern"
       },
       "geometry": {
         "type": "Point",
@@ -576,7 +576,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "638"
+        "name": "S & M Produce Inc."
       },
       "geometry": {
         "type": "Point",
@@ -589,7 +589,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "653"
+        "name": "Mountain Trails"
       },
       "geometry": {
         "type": "Point",
@@ -602,7 +602,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "657"
+        "name": "Fruteria El Mercado Of Chicago"
       },
       "geometry": {
         "type": "Point",
@@ -615,7 +615,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "665"
+        "name": "Horned Dorset Inn, Ltd."
       },
       "geometry": {
         "type": "Point",
@@ -628,7 +628,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "668"
+        "name": "Shun Xing"
       },
       "geometry": {
         "type": "Point",
@@ -641,7 +641,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "679"
+        "name": "The Mineral Springs Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -654,7 +654,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "681"
+        "name": "Neveria La Mariposa"
       },
       "geometry": {
         "type": "Point",
@@ -667,7 +667,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "693"
+        "name": "Panda New House"
       },
       "geometry": {
         "type": "Point",
@@ -680,7 +680,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "697"
+        "name": "Camp Walden"
       },
       "geometry": {
         "type": "Point",
@@ -693,7 +693,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "716"
+        "name": "Leopard's Spot Concession Stand"
       },
       "geometry": {
         "type": "Point",
@@ -706,7 +706,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "719"
+        "name": "Itastea"
       },
       "geometry": {
         "type": "Point",
@@ -719,7 +719,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "722"
+        "name": "Darrin's Llc"
       },
       "geometry": {
         "type": "Point",
@@ -732,7 +732,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "725"
+        "name": "Westlake Homemade Deli Market"
       },
       "geometry": {
         "type": "Point",
@@ -745,7 +745,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "728"
+        "name": "Sacred Heart"
       },
       "geometry": {
         "type": "Point",
@@ -758,7 +758,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "738"
+        "name": "Somers Hot Bagel"
       },
       "geometry": {
         "type": "Point",
@@ -771,7 +771,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "769"
+        "name": "Miceli's Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -784,7 +784,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "776"
+        "name": "Sedutto Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -797,7 +797,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "786"
+        "name": "Bernie's Chicken Coop"
       },
       "geometry": {
         "type": "Point",
@@ -810,7 +810,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "800"
+        "name": "Fushen Seafood Chinese Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -823,7 +823,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "828"
+        "name": "Texas Pie Company"
       },
       "geometry": {
         "type": "Point",
@@ -836,7 +836,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "836"
+        "name": "Spot 6"
       },
       "geometry": {
         "type": "Point",
@@ -849,7 +849,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "838"
+        "name": "Barbed Wire Reef"
       },
       "geometry": {
         "type": "Point",
@@ -862,7 +862,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "850"
+        "name": "Auburn"
       },
       "geometry": {
         "type": "Point",
@@ -875,7 +875,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "859"
+        "name": "Adolescent Employees Skills Plus Program"
       },
       "geometry": {
         "type": "Point",
@@ -888,7 +888,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "863"
+        "name": "Mike's Pizza House"
       },
       "geometry": {
         "type": "Point",
@@ -901,7 +901,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "878"
+        "name": "Saveway Supermarket"
       },
       "geometry": {
         "type": "Point",
@@ -914,7 +914,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "886"
+        "name": "Oriens Tavola Calda"
       },
       "geometry": {
         "type": "Point",
@@ -927,7 +927,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "898"
+        "name": "Legacy At Cranberry Landing"
       },
       "geometry": {
         "type": "Point",
@@ -940,7 +940,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "903"
+        "name": "Cermele Corp. Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -953,7 +953,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "906"
+        "name": "Giaccone's Pizzeria & Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -966,7 +966,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "908"
+        "name": "Gluten Escape"
       },
       "geometry": {
         "type": "Point",
@@ -979,7 +979,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "927"
+        "name": "Ruk Sushi And Thai"
       },
       "geometry": {
         "type": "Point",
@@ -992,7 +992,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "956"
+        "name": "Brothers Diner"
       },
       "geometry": {
         "type": "Point",
@@ -1005,7 +1005,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "971"
+        "name": "Greek Key Restaurant & Bar"
       },
       "geometry": {
         "type": "Point",
@@ -1018,7 +1018,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "995"
+        "name": "Tj's Famous Texas Hots"
       },
       "geometry": {
         "type": "Point",
@@ -1031,7 +1031,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1019"
+        "name": "Mary's Pizza"
       },
       "geometry": {
         "type": "Point",
@@ -1044,7 +1044,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1027"
+        "name": "Khan Pita Grill"
       },
       "geometry": {
         "type": "Point",
@@ -1057,7 +1057,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1029"
+        "name": "Hamilton Inn"
       },
       "geometry": {
         "type": "Point",
@@ -1070,7 +1070,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1038"
+        "name": "Saltgrass Steak House"
       },
       "geometry": {
         "type": "Point",
@@ -1083,7 +1083,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1048"
+        "name": "Surplus Market Warehouse"
       },
       "geometry": {
         "type": "Point",
@@ -1096,7 +1096,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1051"
+        "name": "Carvel Frozen Desserts"
       },
       "geometry": {
         "type": "Point",
@@ -1109,7 +1109,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1054"
+        "name": "China Hut Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -1122,7 +1122,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1108"
+        "name": "The Fish Keg Inc"
       },
       "geometry": {
         "type": "Point",
@@ -1135,7 +1135,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1126"
+        "name": "Cooke's Seafood"
       },
       "geometry": {
         "type": "Point",
@@ -1148,7 +1148,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1140"
+        "name": "Teddy Broadway Deli"
       },
       "geometry": {
         "type": "Point",
@@ -1161,7 +1161,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1143"
+        "name": "Atlantic Bar"
       },
       "geometry": {
         "type": "Point",
@@ -1174,7 +1174,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1154"
+        "name": "Olive Tree"
       },
       "geometry": {
         "type": "Point",
@@ -1187,7 +1187,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1213"
+        "name": "Buoni Amici Pizza & Pasta"
       },
       "geometry": {
         "type": "Point",
@@ -1200,7 +1200,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1225"
+        "name": "White Castle System"
       },
       "geometry": {
         "type": "Point",
@@ -1213,7 +1213,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1250"
+        "name": "King Drive Mini-mart Inc."
       },
       "geometry": {
         "type": "Point",
@@ -1226,7 +1226,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1256"
+        "name": "Carney's Tavern"
       },
       "geometry": {
         "type": "Point",
@@ -1239,7 +1239,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1282"
+        "name": "H On The Harbor"
       },
       "geometry": {
         "type": "Point",
@@ -1252,7 +1252,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1291"
+        "name": "Jimmy Z's Texas Hots"
       },
       "geometry": {
         "type": "Point",
@@ -1265,7 +1265,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1319"
+        "name": "Randone's Pizzeria & Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -1278,7 +1278,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1320"
+        "name": "Marino's Restaurant On Loder"
       },
       "geometry": {
         "type": "Point",
@@ -1291,7 +1291,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1340"
+        "name": "Green Cactus Grill Of Long Beach"
       },
       "geometry": {
         "type": "Point",
@@ -1304,7 +1304,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1389"
+        "name": "Carlos & Gabbys"
       },
       "geometry": {
         "type": "Point",
@@ -1317,7 +1317,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1434"
+        "name": "Thai Basil"
       },
       "geometry": {
         "type": "Point",
@@ -1330,7 +1330,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1441"
+        "name": "Fruity Shake"
       },
       "geometry": {
         "type": "Point",
@@ -1343,7 +1343,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1457"
+        "name": "Stuffin-it-fresh"
       },
       "geometry": {
         "type": "Point",
@@ -1356,7 +1356,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1463"
+        "name": "Let There Be Bagels"
       },
       "geometry": {
         "type": "Point",
@@ -1369,7 +1369,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1469"
+        "name": "Budweiser Evt Ctr-in Seat Club East Beer"
       },
       "geometry": {
         "type": "Point",
@@ -1382,7 +1382,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1481"
+        "name": "Golden Jade Palace"
       },
       "geometry": {
         "type": "Point",
@@ -1395,7 +1395,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1488"
+        "name": "St. Robert Bellarmine"
       },
       "geometry": {
         "type": "Point",
@@ -1408,7 +1408,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1492"
+        "name": "Wrapsody Grill"
       },
       "geometry": {
         "type": "Point",
@@ -1421,7 +1421,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1494"
+        "name": "Sch'dy Jewish Comm. Center Snack Bar"
       },
       "geometry": {
         "type": "Point",
@@ -1434,7 +1434,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1522"
+        "name": "Coffee At The Point"
       },
       "geometry": {
         "type": "Point",
@@ -1447,7 +1447,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1534"
+        "name": "Stepping Stones"
       },
       "geometry": {
         "type": "Point",
@@ -1460,7 +1460,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1537"
+        "name": "O'toole's Restaurant Pub"
       },
       "geometry": {
         "type": "Point",
@@ -1473,7 +1473,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1544"
+        "name": "Samrat Indian Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -1486,7 +1486,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1556"
+        "name": "Loyal Order Moose"
       },
       "geometry": {
         "type": "Point",
@@ -1499,7 +1499,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1605"
+        "name": "Dazbog Coffee Store"
       },
       "geometry": {
         "type": "Point",
@@ -1512,7 +1512,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1610"
+        "name": "The Place Next Door"
       },
       "geometry": {
         "type": "Point",
@@ -1525,7 +1525,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1613"
+        "name": "Damen & Augusta Food"
       },
       "geometry": {
         "type": "Point",
@@ -1538,7 +1538,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1625"
+        "name": "Rattlesnake Jones"
       },
       "geometry": {
         "type": "Point",
@@ -1551,7 +1551,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1634"
+        "name": "Mrc Last Crumb Bakery"
       },
       "geometry": {
         "type": "Point",
@@ -1564,7 +1564,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1648"
+        "name": "Euclid Hall"
       },
       "geometry": {
         "type": "Point",
@@ -1577,7 +1577,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1657"
+        "name": "Brighton Basebal"
       },
       "geometry": {
         "type": "Point",
@@ -1590,7 +1590,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1665"
+        "name": "Villa Mia Brick Oven"
       },
       "geometry": {
         "type": "Point",
@@ -1603,7 +1603,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1674"
+        "name": "2 In 1 Laundromat"
       },
       "geometry": {
         "type": "Point",
@@ -1616,7 +1616,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1675"
+        "name": "Oh Panini"
       },
       "geometry": {
         "type": "Point",
@@ -1629,7 +1629,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1678"
+        "name": "Veneto's Pizza & Pasta"
       },
       "geometry": {
         "type": "Point",
@@ -1642,7 +1642,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1690"
+        "name": "D'chefs"
       },
       "geometry": {
         "type": "Point",
@@ -1655,7 +1655,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1700"
+        "name": "Shawn P's"
       },
       "geometry": {
         "type": "Point",
@@ -1668,7 +1668,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1707"
+        "name": "Udi's Refresh Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -1681,7 +1681,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1710"
+        "name": "Grandma's Restaurant & Pancake Hose"
       },
       "geometry": {
         "type": "Point",
@@ -1694,7 +1694,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1711"
+        "name": "Charlie Price's Place"
       },
       "geometry": {
         "type": "Point",
@@ -1707,7 +1707,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1712"
+        "name": "Liquid Bar And Lounge"
       },
       "geometry": {
         "type": "Point",
@@ -1720,7 +1720,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1713"
+        "name": "The Gourmet Grape"
       },
       "geometry": {
         "type": "Point",
@@ -1733,7 +1733,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1726"
+        "name": "Butcher Block Specialties, Inc"
       },
       "geometry": {
         "type": "Point",
@@ -1746,7 +1746,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1738"
+        "name": "Wolfgang Puck Con. B"
       },
       "geometry": {
         "type": "Point",
@@ -1759,7 +1759,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1742"
+        "name": "Cakes By Michelle"
       },
       "geometry": {
         "type": "Point",
@@ -1772,7 +1772,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1745"
+        "name": "Frank Food Mart"
       },
       "geometry": {
         "type": "Point",
@@ -1785,7 +1785,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1758"
+        "name": "S & S Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -1798,7 +1798,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1773"
+        "name": "Joe's Barbque, Inc"
       },
       "geometry": {
         "type": "Point",
@@ -1811,7 +1811,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1782"
+        "name": "Hibernian The"
       },
       "geometry": {
         "type": "Point",
@@ -1824,7 +1824,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1798"
+        "name": "Westwood Inn"
       },
       "geometry": {
         "type": "Point",
@@ -1837,7 +1837,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1827"
+        "name": "Faber"
       },
       "geometry": {
         "type": "Point",
@@ -1850,7 +1850,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1829"
+        "name": "Haunted Game CafÉ"
       },
       "geometry": {
         "type": "Point",
@@ -1863,7 +1863,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1831"
+        "name": "Whats The Scoop"
       },
       "geometry": {
         "type": "Point",
@@ -1876,7 +1876,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1845"
+        "name": "Thanks A Latte"
       },
       "geometry": {
         "type": "Point",
@@ -1889,7 +1889,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1852"
+        "name": "Mamaroneck Inn"
       },
       "geometry": {
         "type": "Point",
@@ -1902,7 +1902,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1876"
+        "name": "Los Arcos"
       },
       "geometry": {
         "type": "Point",
@@ -1915,7 +1915,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1882"
+        "name": "Vfw Barben- Jones Veterans"
       },
       "geometry": {
         "type": "Point",
@@ -1928,7 +1928,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1895"
+        "name": "Uta Of Monsey -kitchen"
       },
       "geometry": {
         "type": "Point",
@@ -1941,7 +1941,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1918"
+        "name": "Churchvill"
       },
       "geometry": {
         "type": "Point",
@@ -1954,7 +1954,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1931"
+        "name": "Heritage Nursing Home Inc."
       },
       "geometry": {
         "type": "Point",
@@ -1967,7 +1967,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1950"
+        "name": "Third Floor Combo Stands"
       },
       "geometry": {
         "type": "Point",
@@ -1980,7 +1980,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1959"
+        "name": "Rose Corner Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -1993,7 +1993,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1974"
+        "name": "Chicago Military"
       },
       "geometry": {
         "type": "Point",
@@ -2006,7 +2006,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1982"
+        "name": "Honky Tonk Barbeque Catering"
       },
       "geometry": {
         "type": "Point",
@@ -2019,7 +2019,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "1996"
+        "name": "Ziamos Pizzeria Llc"
       },
       "geometry": {
         "type": "Point",
@@ -2032,7 +2032,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2003"
+        "name": "Jillian's"
       },
       "geometry": {
         "type": "Point",
@@ -2045,7 +2045,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2015"
+        "name": "Sunny Hill Resort"
       },
       "geometry": {
         "type": "Point",
@@ -2058,7 +2058,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2042"
+        "name": "Last Call Bar & Grill"
       },
       "geometry": {
         "type": "Point",
@@ -2071,7 +2071,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2088"
+        "name": "Arlington Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2084,7 +2084,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2090"
+        "name": "Beverly Bakery Inc"
       },
       "geometry": {
         "type": "Point",
@@ -2097,7 +2097,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2098"
+        "name": "Steveie Street Eats"
       },
       "geometry": {
         "type": "Point",
@@ -2110,7 +2110,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2101"
+        "name": "Lena Lovato-archuleta Elem."
       },
       "geometry": {
         "type": "Point",
@@ -2123,7 +2123,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2170"
+        "name": "Lyons Falls Headstart Food Service"
       },
       "geometry": {
         "type": "Point",
@@ -2136,7 +2136,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2193"
+        "name": "Brown Bag Lunch Truck, Llc"
       },
       "geometry": {
         "type": "Point",
@@ -2149,7 +2149,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2219"
+        "name": "Blockheads"
       },
       "geometry": {
         "type": "Point",
@@ -2162,7 +2162,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2220"
+        "name": "Clearview Squire Cinemas"
       },
       "geometry": {
         "type": "Point",
@@ -2175,7 +2175,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2227"
+        "name": "Mellody Freeze"
       },
       "geometry": {
         "type": "Point",
@@ -2188,7 +2188,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2235"
+        "name": "Mom's Pizza"
       },
       "geometry": {
         "type": "Point",
@@ -2201,7 +2201,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2238"
+        "name": "El Rinconcito Vincentino"
       },
       "geometry": {
         "type": "Point",
@@ -2214,7 +2214,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2239"
+        "name": "Spencer Academy Annex"
       },
       "geometry": {
         "type": "Point",
@@ -2227,7 +2227,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2246"
+        "name": "Ginos Pizzeria Of New Hyde Park"
       },
       "geometry": {
         "type": "Point",
@@ -2240,7 +2240,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2255"
+        "name": "Captain Blacks"
       },
       "geometry": {
         "type": "Point",
@@ -2253,7 +2253,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2291"
+        "name": "Traditions Country Store"
       },
       "geometry": {
         "type": "Point",
@@ -2266,7 +2266,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2311"
+        "name": "Devito's Four Season Catering"
       },
       "geometry": {
         "type": "Point",
@@ -2279,7 +2279,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2322"
+        "name": "Shen Wang Chinese Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2292,7 +2292,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2338"
+        "name": "La Guadalupana Wholesale Co"
       },
       "geometry": {
         "type": "Point",
@@ -2305,7 +2305,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2342"
+        "name": "Kristie's"
       },
       "geometry": {
         "type": "Point",
@@ -2318,7 +2318,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2371"
+        "name": "Alfonso's Ice Cream & Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -2331,7 +2331,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2396"
+        "name": "Lake George Forum Iii"
       },
       "geometry": {
         "type": "Point",
@@ -2344,7 +2344,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2427"
+        "name": "Eurest Dining"
       },
       "geometry": {
         "type": "Point",
@@ -2357,7 +2357,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2428"
+        "name": "Karyn's Cooked"
       },
       "geometry": {
         "type": "Point",
@@ -2370,7 +2370,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2431"
+        "name": "Blauvelt Station 1 Deli"
       },
       "geometry": {
         "type": "Point",
@@ -2383,7 +2383,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2460"
+        "name": "Dooley Mac's"
       },
       "geometry": {
         "type": "Point",
@@ -2396,7 +2396,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2468"
+        "name": "Ann's Fisherman's Fare"
       },
       "geometry": {
         "type": "Point",
@@ -2409,7 +2409,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2488"
+        "name": "Rock Inn Mountain Tavern"
       },
       "geometry": {
         "type": "Point",
@@ -2422,7 +2422,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2505"
+        "name": "Main Street Bar"
       },
       "geometry": {
         "type": "Point",
@@ -2435,7 +2435,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2507"
+        "name": "J & M Deli"
       },
       "geometry": {
         "type": "Point",
@@ -2448,7 +2448,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2534"
+        "name": "The Belgium Street Waffle Company"
       },
       "geometry": {
         "type": "Point",
@@ -2461,7 +2461,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2540"
+        "name": "Crown Fried Chicken Express"
       },
       "geometry": {
         "type": "Point",
@@ -2474,7 +2474,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2576"
+        "name": "Asian Fire Food Truck"
       },
       "geometry": {
         "type": "Point",
@@ -2487,7 +2487,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2583"
+        "name": "Big Beaver Brewing"
       },
       "geometry": {
         "type": "Point",
@@ -2500,7 +2500,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2629"
+        "name": "Cobleskill Diner"
       },
       "geometry": {
         "type": "Point",
@@ -2513,7 +2513,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2631"
+        "name": "John's Imports Foods"
       },
       "geometry": {
         "type": "Point",
@@ -2526,7 +2526,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2646"
+        "name": "John's Farms Deli"
       },
       "geometry": {
         "type": "Point",
@@ -2539,7 +2539,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2660"
+        "name": "Hungarian Delights"
       },
       "geometry": {
         "type": "Point",
@@ -2552,7 +2552,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2671"
+        "name": "Lido's Caffe East"
       },
       "geometry": {
         "type": "Point",
@@ -2565,7 +2565,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2673"
+        "name": "Ugly Duckling"
       },
       "geometry": {
         "type": "Point",
@@ -2578,7 +2578,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2678"
+        "name": "Seward Ave. Elementary"
       },
       "geometry": {
         "type": "Point",
@@ -2591,7 +2591,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2686"
+        "name": "Second Landing"
       },
       "geometry": {
         "type": "Point",
@@ -2604,7 +2604,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2689"
+        "name": "Cold Stone Creamery -frozen"
       },
       "geometry": {
         "type": "Point",
@@ -2617,7 +2617,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2709"
+        "name": "Kismat Indian Food"
       },
       "geometry": {
         "type": "Point",
@@ -2630,7 +2630,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2714"
+        "name": "Wabash Tap"
       },
       "geometry": {
         "type": "Point",
@@ -2643,7 +2643,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2721"
+        "name": "Country Buffet"
       },
       "geometry": {
         "type": "Point",
@@ -2656,7 +2656,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2724"
+        "name": "Mcdonalds 4272"
       },
       "geometry": {
         "type": "Point",
@@ -2669,7 +2669,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2746"
+        "name": "Recovery Center"
       },
       "geometry": {
         "type": "Point",
@@ -2682,7 +2682,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2747"
+        "name": "Hamline Branch"
       },
       "geometry": {
         "type": "Point",
@@ -2695,7 +2695,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2755"
+        "name": "L M B Food Mart"
       },
       "geometry": {
         "type": "Point",
@@ -2708,7 +2708,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2759"
+        "name": "La Frescasita"
       },
       "geometry": {
         "type": "Point",
@@ -2721,7 +2721,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2765"
+        "name": "Gelato Villadolce"
       },
       "geometry": {
         "type": "Point",
@@ -2734,7 +2734,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2768"
+        "name": "Ny Expres"
       },
       "geometry": {
         "type": "Point",
@@ -2747,7 +2747,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2776"
+        "name": "5th Street Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -2760,7 +2760,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2781"
+        "name": "Siam Fine Thai Cuisine"
       },
       "geometry": {
         "type": "Point",
@@ -2773,7 +2773,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2801"
+        "name": "Longway's Diner"
       },
       "geometry": {
         "type": "Point",
@@ -2786,7 +2786,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2807"
+        "name": "Odell Brewing Company"
       },
       "geometry": {
         "type": "Point",
@@ -2799,7 +2799,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2819"
+        "name": "Chez Nous Bakery"
       },
       "geometry": {
         "type": "Point",
@@ -2812,7 +2812,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2844"
+        "name": "Fasil"
       },
       "geometry": {
         "type": "Point",
@@ -2825,7 +2825,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2846"
+        "name": "Meredith Inn"
       },
       "geometry": {
         "type": "Point",
@@ -2838,7 +2838,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2848"
+        "name": "Lucy's Ethiopian Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2851,7 +2851,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2855"
+        "name": "Garden Catering"
       },
       "geometry": {
         "type": "Point",
@@ -2864,7 +2864,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2861"
+        "name": "Moore's Maple Shack & Pancake House"
       },
       "geometry": {
         "type": "Point",
@@ -2877,7 +2877,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2863"
+        "name": "Alb. Polish American Citizens Club"
       },
       "geometry": {
         "type": "Point",
@@ -2890,7 +2890,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2897"
+        "name": "Whale's Tail"
       },
       "geometry": {
         "type": "Point",
@@ -2903,7 +2903,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2900"
+        "name": "Ginas Cuisine Ii"
       },
       "geometry": {
         "type": "Point",
@@ -2916,7 +2916,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2908"
+        "name": "Sakura Hibachi & Sushi"
       },
       "geometry": {
         "type": "Point",
@@ -2929,7 +2929,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2909"
+        "name": "Spinzer Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2942,7 +2942,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2921"
+        "name": "Pine Bush Auction Montgomery"
       },
       "geometry": {
         "type": "Point",
@@ -2955,7 +2955,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2963"
+        "name": "Chan Fu Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2968,7 +2968,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2969"
+        "name": "Villa Parma"
       },
       "geometry": {
         "type": "Point",
@@ -2981,7 +2981,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2994"
+        "name": "Urban Belly"
       },
       "geometry": {
         "type": "Point",
@@ -2994,7 +2994,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "2999"
+        "name": "Gyromania"
       },
       "geometry": {
         "type": "Point",
@@ -3007,7 +3007,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3005"
+        "name": "Thira Santorini"
       },
       "geometry": {
         "type": "Point",
@@ -3020,7 +3020,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3020"
+        "name": "New Tommy's Kitchen"
       },
       "geometry": {
         "type": "Point",
@@ -3033,7 +3033,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3021"
+        "name": "Rhine Haus Ii"
       },
       "geometry": {
         "type": "Point",
@@ -3046,7 +3046,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3041"
+        "name": "Montclair Elementary School"
       },
       "geometry": {
         "type": "Point",
@@ -3059,7 +3059,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3042"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3072,7 +3072,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3051"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3085,7 +3085,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3058"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3098,7 +3098,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3060"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3111,7 +3111,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3067"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3124,7 +3124,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3075"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3137,7 +3137,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3097"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3150,7 +3150,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3098"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3163,7 +3163,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3115"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3176,7 +3176,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3144"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3189,7 +3189,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3145"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3202,7 +3202,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3158"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3215,7 +3215,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3166"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3228,7 +3228,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3169"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3241,7 +3241,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3182"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3254,7 +3254,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3188"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3267,7 +3267,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3190"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3280,7 +3280,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3194"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3293,7 +3293,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3200"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3306,7 +3306,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3204"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3319,7 +3319,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3207"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3332,7 +3332,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3211"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3345,7 +3345,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3214"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3358,7 +3358,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3221"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3371,7 +3371,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3233"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3384,7 +3384,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3236"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3397,7 +3397,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3244"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3410,7 +3410,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3247"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3423,7 +3423,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3272"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3436,7 +3436,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3285"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3449,7 +3449,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3288"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3462,7 +3462,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3308"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3475,7 +3475,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3342"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3488,7 +3488,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3351"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3501,7 +3501,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3356"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3514,7 +3514,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3387"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3527,7 +3527,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3418"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3540,7 +3540,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3442"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3553,7 +3553,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3444"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3566,7 +3566,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3449"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3579,7 +3579,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3450"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3592,7 +3592,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3490"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3605,7 +3605,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3493"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3618,7 +3618,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3498"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3631,7 +3631,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3500"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3644,7 +3644,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3534"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3657,7 +3657,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3553"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3670,7 +3670,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3559"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3683,7 +3683,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3563"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3696,7 +3696,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3573"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3709,7 +3709,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3578"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3722,7 +3722,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3599"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3735,7 +3735,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3609"
+        "name": ""
       },
       "geometry": {
         "type": "Point",
@@ -3748,7 +3748,7 @@ export const SEED_DATA = {
     {
       "type": "Feature",
       "properties": {
-        "name": "3623"
+        "name": ""
       },
       "geometry": {
         "type": "Point",

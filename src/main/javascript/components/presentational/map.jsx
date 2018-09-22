@@ -10,14 +10,14 @@ export default class Map extends React.Component {
     });
 
     const symbolLayout = {
-      'text-field': '{place}',
+      'text-field': '{name}',
       'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
-      'text-offset': [0, 0.6],
+      'text-offset': [0, 0.3],
       'text-anchor': 'top'
     };
 
     const symbolPaint = {
-      'text-color': 'white'
+      'text-color': 'darkblue'
     };
 
     const circleLayout = {visibility: 'visible'};

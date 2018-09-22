@@ -1,6 +1,5 @@
 import React from "react";
 import ReactMapboxGl, {GeoJSONLayer} from "react-mapbox-gl";
-import {SEED_DATA} from "../constants/seedData";
 
 export default class Map extends React.Component {
 
@@ -39,7 +38,7 @@ export default class Map extends React.Component {
           }}>
 
           <GeoJSONLayer
-            data={SEED_DATA}
+            data={this.props.data}
             circleLayout={circleLayout}
             circlePaint={circlePointFatalities}
             circleOnClick={() => {

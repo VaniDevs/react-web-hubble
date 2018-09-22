@@ -1,5 +1,4 @@
 import React, {Component, Fragment} from 'react';
-import {SEED_DATA} from '../constants/seedData'
 
 export default class Sidebar extends Component {
 
@@ -11,15 +10,6 @@ export default class Sidebar extends Component {
 
     this.renderViolationComments = this.renderViolationComments.bind(this);
     this.violationMapper = this.violationMapper.bind(this);
-  }
-
-  getViolations() {
-    return SEED_DATA['features'].map((element, index) => ({
-      locationName: element['properties']['name'],
-      date: `${Math.floor(Math.random() * 12 + 1)}/${Math.floor(Math.random() * 31 + 1)}/201${Math.floor(Math.random() * 8 + 1)}`,
-      key: `violation-${index}`,
-      comments: "long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long",
-    }));
   }
 
   getViolationTitle() {
@@ -67,7 +57,7 @@ export default class Sidebar extends Component {
     return <div className="sidebar">
       {this.getHeader()}
       <div className="violations">
-        {this.getViolations().map(this.violationMapper)}
+        {this.props.data.map(this.violationMapper)}
       </div>
     </div>;
   }

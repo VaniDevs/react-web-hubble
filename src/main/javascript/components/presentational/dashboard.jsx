@@ -1,5 +1,9 @@
 import React from 'react';
+import Map from "./map";
 
 export default function Dashboard() {
-  return <h1>THIS IS THE DASHBOARD</h1>;
+  return <div>
+    <Map/>
+    THIS IS THE DASHBOARD
+  </div>;
 }

@@ -26,7 +26,7 @@ export default class Map extends React.Component {
       'circle-color': 'red'
     };
 
-    return <div className="map">
+    return <div className="map-container">
       <div id="text-map">
         <Map
           center={[-123.1204278, 49.280925]}

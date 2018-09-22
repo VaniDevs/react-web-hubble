@@ -1,6 +1,14 @@
 body {
   margin: 0;
+  font-family: ‘Roboto’, Helvetica, sans-serif !important;
 }
+
+$primary: #265A8D;
+$secondary: #0091D0;
+$default: #9E9E9E;
+$white: #FFFFFF;
+$black: #000000;
+$danger: indianred;
 
 .dashboard {
   height: 100%;
@@ -14,5 +22,53 @@ body {
 
   .sidebar {
     width: 30%;
+    height: 100%;
+    background-color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+
+    .violation-container {
+      margin-top: 1.5vh;
+      border-bottom: 2px solid $secondary;
+      padding: 1vh;
+      width: 90%;
+      line-height: 1.15;
+
+      .violation-title {
+        color: indianred;
+        display: flex;
+        align-items: baseline;
+        padding: 5px 0;
+
+        .text {
+          padding-left: 6px;
+        }
+      }
+
+      .violation-details {
+        display: flex;
+        flex-direction: column;
+
+        div {
+          padding-top: 5px;
+        }
+
+        .name {
+          font-weight: bold;
+        }
+
+        .comments {
+          color: $primary
+        }
+      }
+    }
+
+    .paper {
+      background: #fff;
+      border-radius: 2px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
   }
 }

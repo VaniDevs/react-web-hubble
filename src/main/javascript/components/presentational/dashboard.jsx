@@ -1,11 +1,10 @@
 import React from 'react';
 import Map from "./map";
+import Sidebar from "./sidebar";
 
 export default function Dashboard() {
   return <div className="dashboard">
-    <div className="sidebar">
-      <h1>SIDEBAR</h1>
-    </div>
+    <Sidebar/>
     <Map/>
   </div>;
 }

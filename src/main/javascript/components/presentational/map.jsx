@@ -17,13 +17,13 @@ export default class Map extends React.Component {
     };
 
     const symbolPaint = {
-      'text-color': 'darkblue'
+      'text-color': '#265A8D'
     };
 
     const circleLayout = {visibility: 'visible'};
 
     const circlePointFatalities = {
-      'circle-color': 'red'
+      'circle-color': 'indianred'
     };
 
     return <div className="map-container">

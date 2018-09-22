@@ -23,44 +23,91 @@ $danger: indianred;
   .sidebar {
     width: 30%;
     height: 100%;
-    background-color: #E0E0E0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: scroll;
+    background-color: white;
 
-    .violation-container {
-      margin-top: 1.5vh;
-      border-bottom: 2px solid $secondary;
-      padding: 1vh;
-      width: 90%;
-      line-height: 1.15;
+    .header {
+      width: 100%;
+      height: 15vh;
+      display: flex;
+      background-color: #0091D0;
 
-      .violation-title {
-        color: indianred;
-        display: flex;
-        align-items: baseline;
-        padding: 5px 0;
-
-        .text {
-          padding-left: 6px;
-        }
+      .logo {
+        margin: 10px;
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url("http://seafood.ocean.org/resources/assets/images/logos/newLogo--white@2x.png");
       }
 
-      .violation-details {
+      .title-text {
+        padding-left: 20px;
+        color: white;
+        font-size: 24px;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
 
-        div {
-          padding-top: 5px;
+    .violations {
+      height: 85vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: scroll;
+
+      .violation-container {
+        margin-top: 1.5vh;
+        border: 1px solid lightgray;
+        padding: 1vh;
+        width: 90%;
+        line-height: 1.15;
+
+        .violation-title {
+          color: indianred;
+          display: flex;
+          align-items: baseline;
+          padding: 5px 0;
+          font-size: 12px;
+
+          .text {
+            color: $primary;
+            padding-left: 6px;
+          }
         }
 
-        .name {
-          font-weight: bold;
-        }
+        .violation-details {
+          display: flex;
+          flex-direction: column;
 
-        .comments {
-          color: $primary
+          div {
+            padding-top: 5px;
+          }
+
+          .name {
+            font-size: 24px;
+          }
+
+          .fas {
+            padding: 2px;
+            cursor: pointer;
+            color: $primary
+          }
+
+          .comments {
+            color: gray;
+          }
+
+          .date {
+            color: rgba(0,0,0,0.6);
+            font-size: 14px;
+
+            i {
+              padding-right: 5px;
+            }
+          }
         }
       }
     }
@@ -68,7 +115,6 @@ $danger: indianred;
     .paper {
       background: #fff;
       border-radius: 2px;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     }
   }
 }

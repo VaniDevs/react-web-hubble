@@ -1,42 +1,74 @@
-import React, {Fragment} from 'react';
-import {SEED_DATA, LOREM_IPSUM} from '../constants/seedData'
-import * as _ from 'lodash';
+import React, {Component, Fragment} from 'react';
+import {SEED_DATA} from '../constants/seedData'
 
-export default function Sidebar() {
+export default class Sidebar extends Component {
 
-  const loremIpsum = LOREM_IPSUM.split(" ");
+  constructor(props) {
+    super(props);
+    this.state = {
+      openCommentId: "",
+    };
 
-  const getComments = () => {
-    return (Math.random() > 0.7) && `"${_.sampleSize(loremIpsum, Math.floor(Math.random()*50+1)).join(" ")}"`;
-  };
+    this.renderViolationComments = this.renderViolationComments.bind(this);
+    this.violationMapper = this.violationMapper.bind(this);
+  }
 
-  const violations = SEED_DATA['features'].map((element, index) => ({
-    restaurantName: element['properties']['name'],
-    date: `${Math.floor(Math.random()*12+1)}/${Math.floor(Math.random()*31+1)}/201${Math.floor(Math.random()*8+1)}`,
-    key: `violation-${index}`,
-    comments: getComments(),
-  }));
+  getViolations() {
+    return SEED_DATA['features'].map((element, index) => ({
+      locationName: element['properties']['name'],
+      date: `${Math.floor(Math.random() * 12 + 1)}/${Math.floor(Math.random() * 31 + 1)}/201${Math.floor(Math.random() * 8 + 1)}`,
+      key: `violation-${index}`,
+      comments: "long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long, long long long long long long long long",
+    }));
+  }
 
-  const violationTitle =
-    <div className="violation-title">
+  getViolationTitle() {
+    return <div className="violation-title">
       <i className="fas fa-exclamation-triangle"/>
-      <div className="text">Ocean Wise Label Violation!</div>
+      <div className="text">MISUSE CASE</div>
     </div>;
+  }
 
-  const getViolationDetails = (violation) =>
-    <div className="violation-details">
-      <div className="name">{violation['restaurantName']}</div>
-      <div>{violation['date']}</div>
-      <div className="comments">{violation['comments']}</div>
+  getViolationDetails(violation) {
+    return <div className="violation-details">
+      <div className="name">{violation['locationName']}</div>
+      <div className="date"><i className="far fa-calendar-alt"/>{violation['date']}</div>
+      {this.renderViolationComments(violation)}
     </div>;
+  }
 
-  const violationMapper = (violation) =>
-    <div className="violation-container paper" key={violation['key']}>
-      {violationTitle}
-      {getViolationDetails(violation)}
+  renderViolationComments({key, comments}) {
+    if (comments.length > 0) {
+      const isLongComment = this.state.openCommentId === key;
+
+      return <div className="comments">
+        {isLongComment ? comments : comments.slice(0, 50) + "..."}
+        <i className={`fas fa-chevron-${isLongComment ? "up" : "down"}`}
+           onClick={() => this.setState({openCommentId: isLongComment ? "" : key})}/>
+      </div>;
+    }
+  }
+
+  violationMapper(violation) {
+    return <div className="violation-container paper" key={violation['key']}>
+      {this.getViolationTitle()}
+      {this.getViolationDetails(violation)}
     </div>;
+  }
 
-  return <div className="sidebar">
-    {violations.map(violationMapper)}
-  </div>
+  getHeader() {
+    return <div className="header">
+      <div className="logo"/>
+      <div className="title-text">OCEAN WISE <br/> MISUSED LABELS</div>
+    </div>;
+  }
+
+  render() {
+    return <div className="sidebar">
+      {this.getHeader()}
+      <div className="violations">
+        {this.getViolations().map(this.violationMapper)}
+      </div>
+    </div>;
+  }
 }

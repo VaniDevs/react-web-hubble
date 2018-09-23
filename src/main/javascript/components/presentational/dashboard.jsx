@@ -14,8 +14,7 @@ export default class Dashboard extends React.Component {
   }
 
   componentDidMount() {
-    axios.get("https://vanhacks-hubble.herokuapp.com/events?offset=1&limit=25",
-      {headers: {"Access-Control-Allow-Origin": "*"}})
+    axios.get("https://vanhacks-hubble.herokuapp.com/events")
       .then(({data}) => this.setState({
         mapData: this.parseMapData(data),
         sidebarData: this.parseSidebarData(data),

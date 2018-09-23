@@ -1,5 +1,5 @@
 import React from "react";
-import ReactMapboxGl, {GeoJSONLayer} from "react-mapbox-gl";
+import ReactMapboxGl, {GeoJSONLayer, ScaleControl, ZoomControl} from "react-mapbox-gl";
 
 export default class Map extends React.Component {
 
@@ -31,13 +31,15 @@ export default class Map extends React.Component {
           center={[-123.1204278, 49.280925]}
           style="mapbox://styles/mapbox/streets-v9"
           pitch={[5]}
-          zoom={[14]}
+          zoom={[11]}
           onDragEnd={(drag, e) => console.log("enddrag", drag, "e", e)}
 
           containerStyle={{
             width: "100%",
             height: "100vh",
           }}>
+          <ScaleControl/>
+          <ZoomControl/>
 
 
           <GeoJSONLayer

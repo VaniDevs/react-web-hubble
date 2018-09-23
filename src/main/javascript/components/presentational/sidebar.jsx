@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component, createRef, Fragment} from 'react';
 import * as dateFns from 'date-fns';
 
 export default class Sidebar extends Component {
@@ -7,10 +7,14 @@ export default class Sidebar extends Component {
     super(props);
     this.state = {
       openCommentId: "",
+      scrollCount: 33,
+      isUpdating: false,
     };
 
+    this.violationRef = createRef();
     this.renderViolationComments = this.renderViolationComments.bind(this);
     this.violationMapper = this.violationMapper.bind(this);
+    this.onScroll = this.onScroll.bind(this);
   }
 
   getViolationTitle() {
@@ -62,10 +66,20 @@ export default class Sidebar extends Component {
     </div>;
   }
 
+  onScroll() {
+    if (!this.state.isUpdating && this.violationRef.current.scrollTop + this.violationRef.current.offsetHeight >=
+      this.violationRef.current.scrollHeight - 50) {
+      const scrollCount = this.state.scrollCount + 1;
+      this.setState({scrollCount, isUpdating: true});
+      this.props.onScroll(scrollCount);
+      setTimeout(() => this.setState({isUpdating:false}), 1000);
+    }
+  }
+
   render() {
     return <div className="sidebar">
       {this.getHeader()}
-      <div className="violations">
+      <div className="violations" ref={this.violationRef} onScroll={this.onScroll}>
         {this.props.data.map(this.violationMapper)}
       </div>
     </div>;

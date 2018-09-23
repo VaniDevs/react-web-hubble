@@ -82,12 +82,21 @@ $danger: indianred;
           display: flex;
           flex-direction: column;
 
-          div {
+          .top-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+
+          img {
+            height: 75px;
+            width: 75px;
             padding-top: 5px;
           }
 
           .name {
             font-size: 24px;
+            padding: 5px 0;
           }
 
           .fas {
@@ -103,6 +112,7 @@ $danger: indianred;
           .date {
             color: rgba(0,0,0,0.6);
             font-size: 14px;
+            padding: 5px 0 20px 0;
 
             i {
               padding-right: 5px;

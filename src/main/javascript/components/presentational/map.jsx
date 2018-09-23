@@ -32,10 +32,13 @@ export default class Map extends React.Component {
           style="mapbox://styles/mapbox/streets-v9"
           pitch={[5]}
           zoom={[14]}
+          onDragEnd={(drag, e) => console.log("enddrag", drag, "e", e)}
+
           containerStyle={{
             width: "100%",
             height: "100vh",
           }}>
+
 
           <GeoJSONLayer
             data={this.props.data}

@@ -14,7 +14,8 @@ export default class Dashboard extends React.Component {
   }
 
   componentDidMount() {
-    axios.get("http://vanhacks-hubble.herokuapp.com/events")
+    axios.get("https://vanhacks-hubble.herokuapp.com/events?offset=1&limit=25",
+      {headers: {"Access-Control-Allow-Origin": "*"}})
       .then(({data}) => this.setState({
         mapData: this.parseMapData(data),
         sidebarData: this.parseSidebarData(data),
@@ -37,9 +38,10 @@ export default class Dashboard extends React.Component {
   parseSidebarData(data) {
     return data.map((item) => ({
       locationName: item['location']['properties']['name'],
-      date: new Date(item["created"]*1000).toString(),
+      date: new Date(item["created"] * 1000).toString(),
       key: item["id"],
       comments: item["comments"],
+      url: item["image_url"],
     }))
   }
 

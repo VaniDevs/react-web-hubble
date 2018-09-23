@@ -1,4 +1,5 @@
 import React, {Component, Fragment} from 'react';
+import * as dateFns from 'date-fns';
 
 export default class Sidebar extends Component {
 
@@ -21,8 +22,17 @@ export default class Sidebar extends Component {
 
   getViolationDetails(violation) {
     return <div className="violation-details">
-      <div className="name">{violation['locationName']}</div>
-      <div className="date"><i className="far fa-calendar-alt"/>{violation['date']}</div>
+      <div className="top-container">
+        <div className="text-container">
+          {this.getViolationTitle()}
+          <div className="name">{violation['locationName']}</div>
+          <div className="date"><i
+            className="far fa-calendar-alt"/>{dateFns.format(violation['date'], 'MMMM DD, YYYY HH:mm')}</div>
+        </div>
+        <div>
+          <img className="location-img" src={violation['url']}/>
+        </div>
+      </div>
       {this.renderViolationComments(violation)}
     </div>;
   }
@@ -32,7 +42,7 @@ export default class Sidebar extends Component {
       const isLongComment = this.state.openCommentId === key;
 
       return <div className="comments">
-        {isLongComment ? comments : comments.slice(0, 50) + "..."}
+        {isLongComment ? comments : comments.slice(0, 47) + "..."}
         <i className={`fas fa-chevron-${isLongComment ? "up" : "down"}`}
            onClick={() => this.setState({openCommentId: isLongComment ? "" : key})}/>
       </div>;
@@ -41,7 +51,6 @@ export default class Sidebar extends Component {
 
   violationMapper(violation) {
     return <div className="violation-container paper" key={violation['key']}>
-      {this.getViolationTitle()}
       {this.getViolationDetails(violation)}
     </div>;
   }

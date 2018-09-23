@@ -1,7 +1,39 @@
 import React from "react";
-import ReactMapboxGl, {GeoJSONLayer, ScaleControl, ZoomControl} from "react-mapbox-gl";
+import ReactMapboxGl, {GeoJSONLayer, ScaleControl, ZoomControl, Popup} from "react-mapbox-gl";
+import * as _ from "lodash";
 
 export default class Map extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isPopupVisible: false,
+      coordinates: [0, 0],
+    };
+
+    this.onCircleClick = this.onCircleClick.bind(this);
+    this.onPopupClick = this.onPopupClick.bind(this);
+  }
+
+  onCircleClick(event) {
+    const found = _.filter(this.props.data['features'], o =>
+      Number.parseFloat(o['geometry']['coordinates'][0]).toFixed(2) === Number.parseFloat(event['lngLat']['lng']).toFixed(2) &&
+      Number.parseFloat(o['geometry']['coordinates'][1]).toFixed(2) === Number.parseFloat(event['lngLat']['lat']).toFixed(2))[0];
+
+    if (found) {
+      this.setState({
+        isPopupVisible: true,
+        coordinates: found['geometry']['coordinates'],
+      })
+    }
+  }
+
+  onPopupClick() {
+    this.setState({
+      isPopupVisible: false,
+      coordinates: ['0,0'],
+    })
+  }
 
   render() {
     const Map = ReactMapboxGl({
@@ -41,13 +73,20 @@ export default class Map extends React.Component {
           <ScaleControl/>
           <ZoomControl/>
 
+          {this.state.isPopupVisible &&
+          <Popup
+            onClick={this.onPopupClick}
+          coordinates={this.state.coordinates}
+          offset={{'bottom-left': [12, -38], 'bottom': [0, -38], 'bottom-right': [-12, -38]}}>
+            <h1>FOUND</h1>
+          </Popup>}
+
 
           <GeoJSONLayer
             data={this.props.data}
             circleLayout={circleLayout}
             circlePaint={circlePointFatalities}
-            circleOnClick={() => {
-            }}
+            circleOnClick={this.onCircleClick}
             symbolLayout={symbolLayout}
             symbolPaint={symbolPaint}
           />

@@ -10,17 +10,25 @@ export default class Dashboard extends React.Component {
     this.state = {
       mapData: {},
       sidebarData: [],
+      offset: -1,
     };
 
-    this.onSidebarScroll = this.onSidebarScroll.bind(this);
+    this.fetchData = this.fetchData.bind(this);
   }
 
   componentDidMount() {
-    axios.get("https://vanhacks-hubble.herokuapp.com/events?offset=21&limit=25")
+    this.fetchData();
+  }
+
+  fetchData() {
+    const newOffset = this.state.offset + 1;
+    axios.get(`https://vanhacks-hubble.herokuapp.com/events?offset=${newOffset}&limit=6`)
       .then(({data}) => this.setState({
-        mapData: this.parseMapData(data),
-        sidebarData: this.parseSidebarData(data),
-      }));
+          mapData: this.parseMapData(data),
+          sidebarData: [...this.state.sidebarData, ...this.parseSidebarData(data)],
+          offset: newOffset,
+        })
+      );
   }
 
   parseMapData(data) {
@@ -46,17 +54,9 @@ export default class Dashboard extends React.Component {
     }))
   }
 
-  onSidebarScroll() {
-    axios.get(`https://vanhacks-hubble.herokuapp.com/events?offset=${Math.floor(Math.random()*20+1)}&limit=25`)
-      .then(({data}) => this.setState({
-        mapData: this.parseMapData(data),
-        sidebarData: [...this.state.sidebarData, ...this.parseSidebarData(data)],
-      }));
-  }
-
   render() {
     return <div className="dashboard">
-      <Sidebar data={this.state.sidebarData} onScroll={this.onSidebarScroll}/>
+      <Sidebar data={this.state.sidebarData} onScroll={this.fetchData}/>
       <Map data={this.state.mapData}/>
     </div>;
   }

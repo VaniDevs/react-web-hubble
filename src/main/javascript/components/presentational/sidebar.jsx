@@ -7,7 +7,6 @@ export default class Sidebar extends Component {
     super(props);
     this.state = {
       openCommentId: "",
-      scrollCount: 33,
       isUpdating: false,
     };
 
@@ -67,12 +66,13 @@ export default class Sidebar extends Component {
   }
 
   onScroll() {
-    if (!this.state.isUpdating && this.violationRef.current.scrollTop + this.violationRef.current.offsetHeight >=
-      this.violationRef.current.scrollHeight - 50) {
-      const scrollCount = this.state.scrollCount + 1;
-      this.setState({scrollCount, isUpdating: true});
-      this.props.onScroll(scrollCount);
-      setTimeout(() => this.setState({isUpdating:false}), 1000);
+    const scrollee = this.violationRef.current;
+
+    if (!this.state.isUpdating &&
+      scrollee.scrollTop + scrollee.offsetHeight >= scrollee.scrollHeight - 50) {
+      this.setState({isUpdating: true});
+      this.props.onScroll();
+      setTimeout(() => this.setState({isUpdating: false}), 1000);
     }
   }
 
